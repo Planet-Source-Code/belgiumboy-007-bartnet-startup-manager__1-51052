@@ -1,0 +1,17 @@
+On the server there are 5 Files :
+
+ - NEWVERSION.BartNet
+ - URL.BartNet
+ - FILESIZE.BartNet
+ - FILENAME.BartNet
+ - FILELOCATION.BartNet
+
+When there is no new version you still have to have all the Files on the server but you can leave them empty exept for NEWVERSION.BartNet (that has to contain the newest version, is this case : 1.0.0).
+
+Situation : you have created a newer version, version 2.0.0.  The Files could contain something like :
+
+ - NEWVERSION.BartNet    ->  2.0.0
+ - URL.BartNet           ->  http://www.yoursite.com/Downloads.php
+ - FILESIZE.BartNet      ->  3.063.288 bytes
+ - FILENAME.BartNet      ->  BartNet Startup Manager 2.0.0 Setup.zip
+ - FILELOCATION.BartNet  ->  http://www.yoursite.com/BartNet Startup Manager 2.0.0 Setup.zip
